@@ -68,14 +68,12 @@ No installation needed! Open `web_app/index.html` in a browser to run.
 doppler-shift-estimation/
 -  web_app/
     - index.html
-    - style.css
-    - main.js
 -  docs/
     -  images/
--  LICENSE
 -  README.md
 -  report
 -  Dataset
+
 
 
 
