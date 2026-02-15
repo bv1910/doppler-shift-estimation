@@ -67,6 +67,10 @@ Where:
 ## Installation
 No installation needed! Open `web_app/index.html` in a browser to run.
 
+## How to run the web app
+1. Download or clone the project.
+2. Navigate into the folder.
+3. Open **web_app/index.html** in any web browser (Chrome, Firefox, Edge).
 
 
 ## Project Structure
@@ -77,5 +81,6 @@ doppler-shift-estimation/
  - report/
  - README.md
  
+
 
 
