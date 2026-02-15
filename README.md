@@ -25,14 +25,6 @@ This web-based tool allows you to upload radar datasets, process them, and visua
 - Target classification (Cars, Drones, People)
 - Real-time progress display
 
----
-
-##  How to Run
-1. Clone or download the repo
-2. Open `web_app/index.html` in any modern browser (Chrome, Firefox, Edge)
-3. Upload your ZIP dataset
-4. Adjust parameters and click **Process Data & Estimate Doppler Shifts**
-
 ## Doppler Radar Theory
 
 The Doppler shift in radar systems is given by:
@@ -65,10 +57,11 @@ Where:
 ## Installation
 No installation needed! Open `web_app/index.html` in a browser to run.
 
-## How to run the web app
-1. Download or clone the project.
-2. Navigate into the folder.
-3. Open **web_app/index.html** in any web browser (Chrome, Firefox, Edge).
+##  How to Run
+1. Clone or download the repo
+2. Open `web_app/index.html` in any modern browser (Chrome, Firefox, Edge)
+3. Upload your ZIP dataset
+4. Adjust parameters and click **Process Data & Estimate Doppler Shifts**
 
 
 ## Project Structure
@@ -78,7 +71,11 @@ doppler-shift-estimation/
  - docs/
  - report/
  - README.md
+
+## Webpage 
+![Upload Interface](docs/images/uploading dataset.jpg)
  
+
 
 
 
