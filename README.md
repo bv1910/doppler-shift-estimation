@@ -72,9 +72,8 @@ doppler-shift-estimation/
  - report/
  - README.md
 
-## Webpage 
-![Upload Interface](docs/images/uploading dataset .jpg)
- 
+
+
 
 
 
