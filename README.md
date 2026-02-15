@@ -74,7 +74,9 @@ doppler-shift-estimation/
 
 ## 📊 Screenshots
 
-<img src="docs/images/uploading dataset.jpg" width="500" alt="uploading dataset">
+<img src=" docs/images
+/uploading dataset .jpg" width="500" alt="uploading dataset">
+
 
 
 
