@@ -65,14 +65,8 @@ Where:
 ---
 
 ## Installation
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/bv1910/doppler-shift-estimation.git
-   cd doppler-shift-estimation
+No installation needed! Open `web_app/index.html` in a browser to run.
 
-2. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
 
 
 ## Project Structure
@@ -82,5 +76,6 @@ doppler-shift-estimation/
  - docs/
  - report/
  - README.md
- - requirements.txt   
+ 
+
 
