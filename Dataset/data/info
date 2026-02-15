@@ -1,1 +1,5 @@
-Sample data
+Instructions for downloading the dataset 
+
+1) First, unzip all three zipped folders (Car, People, Drone) 
+2) Create another new folder and move all the unzipped folders to that folder 
+3) Compress that new folder into a zip file and upload it to the HTML web page.
