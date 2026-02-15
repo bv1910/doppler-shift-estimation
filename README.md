@@ -2,24 +2,36 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+#  Doppler Shift Estimation Tool
 
-##  Project Overview
-This project estimates the Doppler shift from radar signals using FFT.  
-It can detect the relative velocity of objects from radar datasets (RAD‑DAR).
+Analyze radio frequency shifts from moving targets using RTL-SDR data.  
+This web-based tool allows you to upload radar datasets, process them, and visualize Doppler shifts and target velocities interactively.
 
-The system:
+---
 
-- Applies windowing functions
-- Performs FFT transformation
-- Extracts Doppler frequency shifts
-- Estimates target velocities
-- Classifies targets into:
-  - Cars
-  - Drones
-  - People
+##  Tech Stack
+- HTML, CSS, JavaScript
+- [Chart.js](https://www.chartjs.org/) for visualizations
+- [JSZip](https://stuk.github.io/jszip/) for ZIP file handling
 
-Classification accuracy exceeds 85%.
+---
 
+## Features
+- Upload ZIP datasets containing SDR/radar data
+- Apply various window functions (Hanning, Hamming, Blackman, etc.)
+- Perform FFT-based Doppler shift analysis
+- Estimate velocities of targets
+- Interactive charts for Doppler vs Frequency and Velocity distributions
+- Target classification (Cars, Drones, People)
+- Real-time progress display
+
+---
+
+##  How to Run
+1. Clone or download the repo
+2. Open `web_app/index.html` in any modern browser (Chrome, Firefox, Edge)
+3. Upload your ZIP dataset
+4. Adjust parameters and click **Process Data & Estimate Doppler Shifts**
 
 ## Doppler Radar Theory
 
@@ -50,20 +62,6 @@ Where:
 7. Classify targets
 8. Visualize results
 
----
-
-## Features
-
-- Carrier frequency support: 1–10,000 MHz
-- 15 Window functions
-- Configurable FFT sizes
-- Doppler shift plot
-- Velocity histogram
-- Automatic target classification
-- Accuracy metric display
-
----
-
 ## Installation
 No installation needed! Open `web_app/index.html` in a browser to run.
 
@@ -81,6 +79,7 @@ doppler-shift-estimation/
  - report/
  - README.md
  
+
 
 
 
