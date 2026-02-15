@@ -1,9 +1,11 @@
-# 🛰️ Doppler Shift Estimation using RAD-DAR Dataset with FFT and Machine Learning
+#  Doppler Shift Estimation using RAD-DAR Dataset with FFT and Machine Learning
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 
 ##  Project Overview
-
-This project presents a web-based Doppler shift estimation tool for analyzing radar signals from the RAD-DAR dataset.
+This project estimates the Doppler shift from radar signals using FFT.  
+It can detect the relative velocity of objects from radar datasets (RAD‑DAR).
 
 The system:
 
@@ -62,5 +64,23 @@ Where:
 
 ---
 
+## Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/bv1910/doppler-shift-estimation.git
+   cd doppler-shift-estimation
+
+2. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+
 ## Project Structure
+doppler-shift-estimation/
+ - Dataset/
+ - web_app/
+ - docs/
+ - report/
+ - README.md
+ - requirements.txt   
 
