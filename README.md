@@ -66,16 +66,16 @@ No installation needed! Open `web_app/index.html` in a browser to run.
 
 ## Project Structure
 doppler-shift-estimation/
-├── web_app/
-│   ├── index.html
-│   ├── style.css
-│   └── main.js
-├── docs/
-│   └── images/
-│       ├── upload.png
-│       └── results.png
-├── LICENSE
-└── README.md
+-  web_app/
+    - index.html
+    - style.css
+    - main.js
+-  docs/
+    -  images/
+-  LICENSE
+-  README.md
+-  report
+-  Dataset
 
 
 
