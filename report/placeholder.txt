@@ -1,0 +1,8 @@
+Report consists of : 
+- Overview of the project 
+- Problem statement 
+- Objective 
+- Methodology 
+- FFT 
+- Results 
+- Future improvements 
